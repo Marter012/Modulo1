@@ -1,0 +1,89 @@
+body{
+    background-color: #ffce8c;
+    border: 1px solid  black;
+    margin: 0%;
+    
+}
+.contenedor{
+    background-color: antiquewhite;
+    width: 97%;
+    height: 8%;   
+    border: 1px solid goldenrod;  
+    margin: 10px;
+    margin-bottom: 40px;
+}
+.menu{    
+    width: 97%;
+    height: 100%;
+    display: inline-flex; 
+    align-items: center;
+    
+}
+.fotoprincipal{
+    width: auto;
+    height: 100%;
+
+}
+.encabezado{
+    width: 80%;
+    height: 100%;
+    font-size: 30px;
+    display: flex;
+    margin-left: 10px;   
+    align-items: center; 
+}
+.contenedoritems{
+    width: 80%;
+    height: 100%;  
+}
+.listanav{    
+    width: 100%;
+    height: 100%;    
+    margin: 0px;
+    list-style: none;
+    display: flex;      
+    align-items: center;    
+    font-size: 20px;
+    justify-content: end;
+    text-decoration: none;
+}
+.listanav li {
+    width: auto;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.listanav li a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;   
+}
+.listanav li:hover{
+    background-color: burlywood;
+    color: black;
+}
+.listanav li a:hover{
+    color: white
+    ;
+}
+
+
+.pie{
+    background-color: grey;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    border-top: 1px solid black;
+    width: auto;
+    height: 150px;
+    justify-content: end;
+}
+.lista li{
+    list-style: none;
+    margin: 25px;
+    font-weight: bold;
+}
